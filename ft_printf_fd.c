@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-int	ft_putnbr_ull_base(unsigned long long n, int fd, int base, int flag)
+static int	ft_putnbr_ull_base(unsigned long long n, int fd, int base, int flag)
 {
 	const char	*base_n = "0123456789abcdef0123456789ABCDEF";
 	int			count;
@@ -40,7 +40,7 @@ int	ft_putnbr_ull_base(unsigned long long n, int fd, int base, int flag)
 	return (count);
 }
 
-int	check(char c, va_list ap, int fd)
+static int	check(char c, va_list ap, int fd)
 {
 	int	chr_n;
 
