@@ -53,4 +53,6 @@ void		ft_putendl_fd(char *s, int fd);
 int			ft_putnbr_fd(int n, int fd);
 int			ft_printf(const char *str, ...);
 int			ft_printf_fd(int fd, const char *str, ...);
+void		free_array(char **arr);
+
 #endif
