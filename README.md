@@ -10,9 +10,11 @@ The purpose of this project was to create our own library by implementing variou
 - handling I/O
 ## Compiling
 
-Compile the library by simply running 'make'
+Compile the library by simply cloning the repository and running 'make' inside the libft folder
 
 ```bash
+  git clone https://github.com/TTalvenH/libft.git
+  cd libft
   make
 ```
     
