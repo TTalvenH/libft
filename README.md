@@ -8,3 +8,11 @@ The purpose of this project was to create our own library by implementing variou
 - String manipulation
 - Memory managment
 - handling I/O
+## Compiling
+
+Compile the library by simply running 'make'
+
+```bash
+  make
+```
+    
